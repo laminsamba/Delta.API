@@ -239,6 +239,7 @@
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModel\NameViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -317,6 +318,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Delta.BLL\Delta.BLL.csproj">
+      <Project>{caa06a3d-21a0-425f-9d55-13994f12e905}</Project>
+      <Name>Delta.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Delta.DAL\Delta.DAL.csproj">
+      <Project>{8646250b-b418-4164-a58a-b2f6da1c59ae}</Project>
+      <Name>Delta.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

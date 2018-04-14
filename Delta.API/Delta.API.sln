@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.API", "Delta.API\Delta.API.csproj", "{3A1E0FFB-084A-4881-9847-79A5EEDDDE17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.DAL", "Delta.DAL\Delta.DAL.csproj", "{8646250B-B418-4164-A58A-B2F6DA1C59AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta.BLL", "Delta.BLL\Delta.BLL.csproj", "{CAA06A3D-21A0-425F-9D55-13994F12E905}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3A1E0FFB-084A-4881-9847-79A5EEDDDE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1E0FFB-084A-4881-9847-79A5EEDDDE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1E0FFB-084A-4881-9847-79A5EEDDDE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8646250B-B418-4164-A58A-B2F6DA1C59AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8646250B-B418-4164-A58A-B2F6DA1C59AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8646250B-B418-4164-A58A-B2F6DA1C59AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8646250B-B418-4164-A58A-B2F6DA1C59AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA06A3D-21A0-425F-9D55-13994F12E905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA06A3D-21A0-425F-9D55-13994F12E905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA06A3D-21A0-425F-9D55-13994F12E905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA06A3D-21A0-425F-9D55-13994F12E905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
